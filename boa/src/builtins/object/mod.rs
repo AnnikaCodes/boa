@@ -302,7 +302,7 @@ impl Object {
 
             object.define_property_or_throw(key, desc, context)?;
 
-            Ok(Value::undefined())
+            Ok(object.into())
         } else {
             context.throw_type_error("Object.defineProperty called on non-object")
         }
