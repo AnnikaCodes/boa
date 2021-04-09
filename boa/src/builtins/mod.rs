@@ -7,6 +7,7 @@ pub mod boolean;
 pub mod console;
 pub mod date;
 pub mod error;
+pub mod eval;
 pub mod function;
 pub mod global_this;
 pub mod infinity;
